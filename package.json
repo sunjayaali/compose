@@ -1,0 +1,37 @@
+{
+  "name": "@xyluet/compose",
+  "version": "0.1.0-beta",
+  "description": "Compose utility",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyluet/compose.git"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "compose",
+    "chain"
+  ],
+  "author": {
+    "name": "xyluet",
+    "email": "ali.sunjayaa@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xyluet/compose/issues"
+  },
+  "homepage": "https://github.com/xyluet/compose#readme",
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0"
+  }
+}
