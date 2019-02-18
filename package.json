@@ -1,6 +1,6 @@
 {
   "name": "@xyluet/compose",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Function composition utility",
   "main": "index.js",
   "scripts": {
