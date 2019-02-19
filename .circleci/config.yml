@@ -12,5 +12,6 @@ jobs:
     working_directory: ~/compose
 
     steps:
+      - checkout
       - run: npm install
       - run: npm test
