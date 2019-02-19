@@ -1,3 +1,3 @@
-const compose = require(`./lib/compose`);
+const compose = require(`./lib/composer`);
 
 module.exports = compose;
