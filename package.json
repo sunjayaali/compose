@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
-    "test:ci": "jest --coverage && cat ./coverage/lcov.info"
+    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls | codecov"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
   },
   "homepage": "https://github.com/xyluet/compose#readme",
   "devDependencies": {
+    "codecov": "^3.3.0",
+    "coveralls": "^3.0.3",
     "eslint": "^5.14.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",

@@ -15,6 +15,3 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run test:ci
-      - run: npm i -D coveralls codecov
-      - run: npx coveralls
-      - run: npx codecov
