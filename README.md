@@ -2,6 +2,12 @@
 
 A function composer utility to generate middleware.
 
+[![CircleCI](https://circleci.com/gh/xyluet/compose/tree/master.svg?style=shield)](https://circleci.com/gh/xyluet/compose/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/xyluet/compose/badge.svg?branch=master)](https://coveralls.io/github/xyluet/compose?branch=master)
+[![codecov](https://codecov.io/gh/xyluet/compose/branch/master/graph/badge.svg)](https://codecov.io/gh/xyluet/compose)
+
+
+
 # Usage
 
 ```js
